@@ -1,31 +1,107 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
+    max-height: 100%;
+    max-height: max-content;
+
 }
 
 body {
 
+
     flex-direction: column;
     align-items: flex-start;
     position: relative;
-    width: 1920px;
-    height: 1037px;
+
     background: #36393F;
     margin: 0;
     padding: 0;
     border: 0;
 }
 
+div {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* header comecar aqui */
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    /* width: 1880px; */
+    max-width: max-content;
+    height: 24px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.divHeader1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 10px;
+    gap: 0px;
+
+    width: 1830px;
+    /* importante */
+    height: 16px;
+
+    background: #202225;
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.textoHeader {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.divHeader2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    width: 15px;
+    right: 10px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.imgHeader1:hover,
+.imgHeader2:hover,
+.imgHeader3:hover {
+    cursor: pointer;
+    transform: scale(1.1)
+}
+
+/* header fim */
+
 .divTelaPrincipal {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
-
-    width: 1608px;
-    height: 1013px;
-
-
-    /* Inside auto layout */
+    position: relative;
+    left: 540px;
+    top: 1px;
+    width: 800px;
 
     flex: none;
     order: 2;
@@ -36,14 +112,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
 
-    width: 1608px;
+    width: 1008px;
     height: 49px;
 
-    background: #36393F;
-
-    /* Inside auto layout */
 
     flex: none;
     order: 0;
@@ -55,12 +127,9 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
 
-    width: 1608px;
+    width: 1008px;
     height: 48px;
-
-    /* Inside auto layout */
 
     flex: none;
     order: 0;
@@ -68,19 +137,34 @@ body {
     flex-grow: 0;
 }
 
+/* fica branco ao passa o mouse  */
+.divTitulo1Nome:hover,
+.divTitulo2Nome:hover,
+.divTitulo3Nome:hover,
+.divTitulo4Nome:hover,
+.divTitulo5Nome:hover,
+.divTitulo6Nome:hover {
+    color: #ffffff;
+    cursor: pointer;
+    transform: scale(1.1)
+}
+
+.divTitulo1Nome:hover {
+    color: #eaee00;
+}
+
+
 .divTitulo1 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 8px 32px;
-    gap: 12px;
+    padding: 0px 32px;
+    gap: 4px;
 
-    width: 157px;
+    width: 60px;
     height: 48px;
 
-    background: #36393F;
 
-    /* Inside auto layout */
 
     flex: none;
     order: 0;
@@ -89,11 +173,8 @@ body {
 }
 
 .imgTitulo1 {
-    width: 24px;
-    height: 24px;
-
-
-    /* Inside auto layout */
+    width: 20px;
+    height: 20px;
 
     flex: none;
     order: 0;
@@ -101,37 +182,16 @@ body {
 }
 
 .divTitulo1Nome {
-    width: 57px;
-    height: 24px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height, or 150% */
-
-
     color: #FFFFFF;
-
-
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
 }
 
 .divTituloEspaco {
     width: 1px;
     height: 24px;
-
     background: #42464D;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -142,15 +202,11 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 12px;
+    padding: 0px;
     gap: 8px;
 
-    width: 67px;
+    width: 55px;
     height: 48px;
-
-    background: #36393F;
-
-    /* Inside auto layout */
 
     flex: none;
     order: 2;
@@ -158,25 +214,9 @@ body {
 }
 
 .divTitulo2Nome {
-    width: 43px;
-    height: 24px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
     font-size: 14px;
     line-height: 24px;
-    /* identical to box height, or 171% */
-
-
     color: #96989D;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
 .divTitulo3 {
@@ -184,15 +224,10 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 12px;
     gap: 8px;
 
-    width: 41px;
+    width: 38px;
     height: 48px;
-
-    background: #36393F;
-
-    /* Inside auto layout */
 
     flex: none;
     order: 3;
@@ -200,41 +235,23 @@ body {
 }
 
 .divTitulo3Nome {
-    width: 17px;
-    height: 24px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
     font-size: 14px;
     line-height: 24px;
-    /* identical to box height, or 171% */
-
-
     color: #96989D;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
+
+/* to aqui  */
 
 .divTitulo4 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 12px;
+
     gap: 8px;
 
-    width: 79px;
+    width: 70px;
     height: 48px;
-
-    background: #36393F;
-
-    /* Inside auto layout */
 
     flex: none;
     order: 4;
@@ -243,25 +260,9 @@ body {
 }
 
 .divTitulo4Nome {
-    width: 55px;
-    height: 24px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
     font-size: 14px;
     line-height: 24px;
-    /* identical to box height, or 171% */
-
-
     color: #96989D;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
 .divTitulo5 {
@@ -269,15 +270,11 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 12px;
     gap: 8px;
 
-    width: 78px;
+    width: 68px;
     height: 48px;
 
-    background: #36393F;
-
-    /* Inside auto layout */
 
     flex: none;
     order: 5;
@@ -285,26 +282,9 @@ body {
 }
 
 .divTitulo5Nome {
-    width: 54px;
-    height: 24px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
     font-size: 14px;
     line-height: 24px;
-    /* identical to box height, or 171% */
-
-
     color: #96989D;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-
 }
 
 .divTitulo6 {
@@ -312,125 +292,74 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 12px;
     gap: 8px;
-
-    width: 98px;
+    width: 80px;
     height: 48px;
-
-    background: #36393F;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 6;
     flex-grow: 0;
-
 }
 
 .divTitulo6Nome {
-    width: 74px;
-    height: 24px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
     font-size: 14px;
     line-height: 24px;
-    /* identical to box height, or 171% */
-
-
     color: #3BA55D;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
+/* estou aqui nas separação do icones */
 .divTituloIcones {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    padding: 12px;
-    gap: 16px;
+    padding: 0px;
+    gap: 8px;
 
-    width: 1087px;
+    width: 870px;
     height: 48px;
-
-    background: #36393F;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 7;
     flex-grow: 1;
+}
+
+.divTituloIcone1:hover,
+.divTituloIcone2:hover,
+.divTituloIcone3:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+
 }
 
 .divTituloIcone1 {
     width: 24px;
     height: 24px;
 
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
 .divTituloIconeVazio {
     width: 1px;
     height: 24px;
-
-    background: #81be0e;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+    background: #42464D;
 }
 
+/* ================================================================= */
 .divTituloIcone2 {
     width: 24px;
     height: 24px;
 
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 2;
-    flex-grow: 0;
 }
 
 .divTituloIcone3 {
     width: 24px;
     height: 24px;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 3;
-    flex-grow: 0;
 }
 
 .divSeperarTitulo {
-    width: 1608px;
+    width: 1316px;
     height: 1px;
 
-    background: #bde700;
+    background: #232428;
 
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
 }
 
 .divTituloSegundario {
@@ -439,11 +368,8 @@ body {
     align-items: flex-start;
     padding: 0px;
 
-    width: 1608px;
-    height: 964px;
-
-
-    /* Inside auto layout */
+    width: 800px;
+    height: 900px;
 
     flex: none;
     order: 1;
@@ -456,16 +382,9 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 0px;
-    gap: 16px;
+    gap: 0px;
+    width: 900px;
     isolation: isolate;
-
-    width: 1248px;
-    height: 964px;
-
-    background: #36393F;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 1;
@@ -473,36 +392,15 @@ body {
 
 .divTitSegunVazio {
     width: 1px;
-    height: 964px;
-
-    background: #bde700;
-
-    /* Inside auto layout */
-
+    height: 900px;
+    background: #42464D;
     flex: none;
     order: 1;
     align-self: stretch;
     flex-grow: 0;
 }
 
-.divTitSegun2 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 8px;
-
-    width: 359px;
-    height: 964px;
-
-    background: #36393F;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-}
+/* tenta moverrrrrrrrrrrrrrrr */
 
 .divTitSegun1Opcao1 {
     display: flex;
@@ -510,11 +408,8 @@ body {
     align-items: flex-start;
     padding: 0px;
 
-    width: 1248px;
+    width: 1048px;
     height: 156px;
-
-
-    /* Inside auto layout */
 
     flex: none;
     order: 0;
@@ -527,15 +422,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 16px 32px;
-    gap: 4px;
-
+    padding: 4px 32px;
     width: 1248px;
-    height: 84px;
-
-
-    /* Inside auto layout */
-
+    height: 80px;
     flex: none;
     order: 0;
     align-self: stretch;
@@ -543,64 +432,30 @@ body {
 }
 
 .pTexto1 {
-    width: 1184px;
-    height: 24px;
-
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-
-
+    line-height: 10px;
     color: #FFFFFF;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
+    cursor: default;
 }
 
 .pTexto2 {
-    width: 1184px;
-    height: 24px;
-
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
-    /* identical to box height, or 171% */
-
-
+    line-height: 10px;
     color: #96989D;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
+    cursor: default;
 }
+
 
 .divTitSegun1Opcao1Texto2 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 8px 32px;
-    gap: 8px;
-
-    width: 1248px;
+    padding: 4px 16px;
+    gap: 0px;
+    width: 1000px;
     height: 72px;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     align-self: stretch;
@@ -609,23 +464,15 @@ body {
 
 .divSearch {
     box-sizing: border-box;
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 12px;
-
-    width: 1184px;
-    height: 56px;
-
+    width: 800px;
+    height: 50px;
     background: #202225;
     border: 1px solid #00AFF4;
-    border-radius: 8px;
-
-    /* Inside auto layout */
-
+    border-radius: 12px;
     flex: none;
     order: 0;
     align-self: stretch;
@@ -633,343 +480,175 @@ body {
 }
 
 .divCaixaSearch {
-    width: 5px;
-    height: 24px;
-
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    /* identical to box height, or 171% */
-    background: #36393F;
-    background-color: #36393F;
-    color: #FFFFFF;
-    border-image: none;
+    background: #202225;
     border-style: none;
-    border-color: #36393F;
-    /* Inside auto layout */
 
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-
-    width: 982px;
-    height: 24px;
-
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    /* identical to box height, or 171% */
-
-
-    color: #6F7174;
-
-
-    /* Inside auto layout */
 
     flex: none;
     order: 1;
     flex-grow: 1;
+    cursor: pointer;
+    color: #FFFFFF;
+}
 
+.divCaixaSearch:focus {
+    list-style: none;
+    border-style: none;
+    outline-style: none;
+    cursor: text;
+    color: #FFFFFF;
+    /* outline remover a linha branca quando clica no input */
 }
 
 .butaoPrincipal {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 8px 16px;
-    gap: 8px;
+    padding: 8px 8px;
+    gap: 0px;
 
-    width: 173px;
-    height: 32px;
+    width: 220px;
+    height: 20px;
 
     background: #3C438B;
-    border-radius: 4px;
-
-    /* Inside auto layout */
+    border-radius: 20px;
 
     flex: none;
     order: 2;
     flex-grow: 0;
 }
 
-.butaoPrincipalTexto {
-    width: 141px;
-    height: 16px;
+.butaoPrincipal:hover {
+    cursor: pointer;
+    background: #008cff;
+    transform: scale(1.01)
+}
 
-    font-family: 'Inter';
-    font-style: normal;
+/* estou aqui ---------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+-------------------- */
+.butaoPrincipalTexto {
     font-weight: 600;
     font-size: 14px;
     line-height: 16px;
-    /* identical to box height, or 114% */
+    color: #FFFFFF;
+}
 
+/* .butaoPrincipalTexto:hover{
+    color: #000000;
+} */
 
-    color: #8F9092;
+.divTitSegun1Vazio {
+    width: 900px;
+    height: 1px;
+    background: #42464D;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    z-index: 1;
+}
 
+.divTitSegun1Opcao2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
 
-    /* Inside auto layout */
+    position: absolute;
+    left: 200px;
+    top: 371px;
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    z-index: 2;
+}
+
+.imgTitSegun1Opcao2 {
+    width: 395px;
+    height: 157px;
 
     flex: none;
     order: 0;
     flex-grow: 0;
 }
 
+.textoTitSegun1Opcao2 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 8px;
+    text-align: center;
+    color: #9C9FA3;
+    cursor: default;
+}
 
-/* aqui está bugando algo */
-.divTitSegun1Vazio {}
-
-.divTitSegun1Opcao2 {}
-
-
-
-
-/* Jeallyson */
-
-body {
+/* ok */
+.divTitSegun2 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
-    position: relative;
-    width: 1920px;
-    height: 1037px;
+
+    width: 359px;
+    height: 440px;
+    /*  resolveu o problema do tamanho da tela ok. */
     background: #36393F;
-    }
-    
-    
-    #container {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 0px;
-        width: 1920px;
-        height: 1013px;
-    
-        
-        flex: none;
-        order: 1;
-        align-self: stretch;
-        flex-grow: 0;
-    }
-    
-    /* coluna preta. Modifique o width para alterar */
-    #wapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    width: 85px;
-    height: 1013px;
-    background: #202225;
-    
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    }
-    
-    #discord {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 2px;
-        gap: 8px;
-        
-        width: 38px;
-        height: 38px;
-        
-        background: #5865F2;
-        border-radius: 16px;
-        
-        /* Inside auto layout */
-        
-        flex: none;
-        order: 1;
-        flex-grow: 0;
-    }
-    
-    #dv1 {
-    width: 4px;
-    height: 40px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    }
-    
-    
-    .personagem1 {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 8px;
-        gap: 8px;
-        isolation: isolate;
-        
-        width: 48px;
-        height: 48px;
-    
-        border-radius: 48px;
-        
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-    }
-    
-    .personagem2 {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 8px;
-        gap: 8px;
-        isolation: isolate;
-        
-        width: 48px;
-        height: 48px;
-    
-        border-radius: 48px;
-        
-        /* Inside auto layout */
-        
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-    }
-    
-    .positivo {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 2px;
-        gap: 8px;
-        
-        width: 48px;
-        height: 48px;
-        
-        background: #36393F;
-        border-radius: 48px;
-        
-        /* Inside auto layout */
-        
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-        }
-    
-    
-        
-    .circleIon {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 12px;
-    gap: 8px;
-    
-    /* padding-top: 255px; */
-    
-    width: 28px;
-    height: 28px;
-    background: #36393F;
-    border-radius: 28px;
-    /* 
-    flex: none;
-    order: 1;
-    flex-grow: 0; */
-    }
-    
-    #listItem0 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 12px 12px 12px 0px;
-    gap: 8px;
-    
-    width: 57px;
-    height: 72px;
-    
-    background: #202225;
-    
-    /* Inside auto layout */
-    
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    }
-    
-    #listItem1 {
-        display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 12px 12px 12px 0px;
-    gap: 8px;
-    
-    width: 57px;
-    height: 72px;
-    
-    background: #202225;
-    
-    /* Inside auto layout */
-    
+
     flex: none;
     order: 2;
     flex-grow: 0;
-    }
-    
-    #listItem2 {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding: 12px 12px 12px 0px;
-        gap: 8px;
-        
-        width: 57px;
-        height: 72px;
-        
-        background: #202225;
-        
-        /* Inside auto layout */
-        
-        flex: none;
-        order: 3;
-        flex-grow: 0;
-    }
-    
-    #listItem3 {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding: 12px;
-        gap: 8px;
-    /* modifique o width para diminuir a borda preta */
-        width: 60px;
-        height: 72px;
-        
-        background: #202225;
-        
-        /* Inside auto layout */
-        
-        flex: none;
-        order: 4;
-        flex-grow: 0;
-    }
-    
-    #listItem4 {
-        display: flex;
+}
+
+.divTitSegun2OpcaoDeTexto1 {
+    display: flex;
     flex-direction: row;
-    align-items: center;
-    padding: 12px 12px 12px 0px;
-    gap: 8px;
-    
-    width: 48px;
-    height: 72px;
-    
-    background: #202225;
-    
-    /* Inside auto layout */
-    
+    align-items: flex-start;
+}
+
+.textoTitSegun2OpcaoDeTexto1 {
+    margin-left: 16px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 12px;
+    color: #FFFFFF;
     flex: none;
-    order: 5;
-    flex-grow: 0;
-    }
+    order: 0;
+    flex-grow: 1;
+}
+
+.divTitSegun2OpcaoDeTexto2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 32px;
+}
+
+.subtexto1TitSegun2OpcaoDeTexto2 {
+    margin: 0px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 12px;
+    padding: 0px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.subtexto2TitSegun2OpcaoDeTexto2 {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+
+    text-align: center;
+
+    color: #96989D;
+
+}
