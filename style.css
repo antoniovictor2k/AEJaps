@@ -86,6 +86,7 @@ flex-grow: 0;
 .personagem1:hover{
     transform: scale(1.2);
     cursor: pointer;
+    /* opacity: 0.5; */
 }
 
 .personagem2 {
@@ -172,6 +173,28 @@ background: #202225;
 flex: none;
 order: 2;
 flex-grow: 0;
+}
+
+.listItem1Barra{
+position: absolute;
+left: 0px;
+top: 52px;
+
+}
+.listItem1Bola{
+    position: absolute;
+    left: 0px;
+    top: 158px;
+}
+.listItem2Bola{
+    position: absolute;
+    left: 0px;
+    top: 255px;
+}
+.listItem4Bola{
+    position: absolute;
+    left: 0px;
+    top: 448px;
 }
 
 #listItem2 {
