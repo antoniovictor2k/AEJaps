@@ -1,0 +1,1313 @@
+/* ANTONIO CSS */
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    max-height: 100%;
+    max-height: max-content;
+
+}
+
+body {
+
+
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+
+    background: #36393F;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+div {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* header comecar aqui */
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    /* width: 1880px; */
+    max-width: max-content;
+    height: 24px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+/* ======================================== */
+.divHeader1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 10px;
+    gap: 0px;
+
+    width: 1847px;
+    /* importante */
+    height: 16px;
+
+    background: #202225;
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.textoHeader {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+    color: #FFFFFF;
+
+    /* flex: none;
+    order: 0;
+    flex-grow: 0; */
+
+cursor: default;
+}
+
+.divHeader2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    width: 15px;
+    right: 10px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.imgHeader1:hover,
+.imgHeader2:hover,
+.imgHeader3:hover {
+    cursor: pointer;
+    transform: scale(1.1)
+}
+
+/* header fim */
+
+.divTelaPrincipal {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    left: 340px;
+    top: 1px;
+    width: 800px;
+
+    flex: none;
+    order: 2;
+    flex-grow: 1;
+}
+
+.divTituloPrincipal {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 1008px;
+    height: 49px;
+
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.divContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: 1008px;
+    height: 48px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/* fica branco ao passa o mouse  */
+.divTitulo1Nome:hover,
+.divTitulo2Nome:hover,
+.divTitulo3Nome:hover,
+.divTitulo4Nome:hover,
+.divTitulo5Nome:hover,
+.divTitulo6Nome:hover {
+    color: #ffffff;
+    cursor: pointer;
+    transform: scale(1.1)
+}
+
+.divTitulo1Nome:hover {
+    color: #eaee00;
+}
+
+
+.divTitulo1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 32px;
+    gap: 4px;
+
+    width: 60px;
+    height: 48px;
+
+
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.imgTitulo1 {
+    width: 20px;
+    height: 20px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.divTitulo1Nome {
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.divTituloEspaco {
+    width: 1px;
+    height: 24px;
+    background: #42464D;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.divTitulo2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    width: 55px;
+    height: 48px;
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.divTitulo2Nome {
+    font-size: 14px;
+    line-height: 24px;
+    color: #96989D;
+}
+
+.divTitulo3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    width: 42px;
+    height: 48px;
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+.divTitulo3Nome {
+    font-size: 14px;
+    line-height: 24px;
+    color: #96989D;
+}
+
+/* to aqui  */
+
+.divTitulo4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 8px;
+
+    width: 75px;
+    height: 48px;
+
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+
+}
+
+.divTitulo4Nome {
+    font-size: 14px;
+    line-height: 24px;
+    color: #96989D;
+}
+
+.divTitulo5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    width: 75px;
+    height: 48px;
+
+
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+}
+
+.divTitulo5Nome {
+    font-size: 14px;
+    line-height: 24px;
+    color: #96989D;
+}
+
+.divTitulo6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 85px;
+    height: 48px;
+    flex: none;
+    order: 6;
+    flex-grow: 0;
+}
+
+.divTitulo6Nome {
+    font-size: 14px;
+    line-height: 24px;
+    color: #3BA55D;
+}
+
+/* estou aqui nas separação do icones */
+.divTituloIcones {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    width: 1072px;
+    height: 48px;
+    flex: none;
+    order: 7;
+    flex-grow: 1;
+}
+
+.divTituloIcone1:hover,
+.divTituloIcone2:hover,
+.divTituloIcone3:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
+
+.divTituloIcone1 {
+    width: 24px;
+    height: 24px;
+
+}
+
+.divTituloIconeVazio {
+    width: 1px;
+    height: 24px;
+    background: #42464D;
+}
+
+/* ================================================================= */
+.divTituloIcone2 {
+    width: 24px;
+    height: 24px;
+
+}
+
+.divTituloIcone3 {
+    width: 24px;
+    height: 24px;
+}
+/* ------------------------- */
+.divSeperarTitulo {
+    position: absolute;
+    left: -255px;
+    top: 50px;
+    width: 1788px;
+    height: 1px;
+/* background: #eaee00; */
+    background: #232428;
+
+}
+
+.divTituloSegundario {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 800px;
+    height: 800px;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.divTitSegun1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 0px;
+    width: 1140px;
+    isolation: isolate;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.divTitSegunVazio {
+    width: 1px;
+    height: 890px;
+    background: #42464D;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/* tenta moverrrrrrrrrrrrrrrr */
+
+.divTitSegun1Opcao1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 1048px;
+    height: 156px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    z-index: 0;
+}
+
+.divTitSegun1Opcao1Texto1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4px 32px;
+    width: 1248px;
+    height: 80px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.pTexto1 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 10px;
+    color: #FFFFFF;
+    cursor: default;
+}
+
+.pTexto2 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 10px;
+    color: #96989D;
+    cursor: default;
+}
+
+
+.divTitSegun1Opcao1Texto2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4px 16px;
+    gap: 0px;
+    width: 1000px;
+    height: 72px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.divSearch {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    width: 1100px;
+    /* Aqui EStou +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+    height: 50px;
+    background: #202225;
+    border: 1px solid #00AFF4;
+    border-radius: 12px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.divCaixaSearch {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    background: #202225;
+    border-style: none;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.divCaixaSearch:focus {
+    list-style: none;
+    border-style: none;
+    outline-style: none;
+    cursor: text;
+    color: #FFFFFF;
+    /* outline remover a linha branca quando clica no input */
+}
+
+.butaoPrincipal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 8px;
+    gap: 0px;
+
+    width: 202px;
+    height: 20px;
+
+    background: #3C438B;
+    border-radius: 20px;
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.butaoPrincipal:hover {
+    cursor: pointer;
+    background: #008cff;
+    transform: scale(1.01);
+   
+
+    color: #ffffff;
+}
+.butaoPrincipalTexto:hover{color: #ffffff;}
+
+/* estou aqui ---------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+-------------------- */
+.butaoPrincipalTexto {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    /* color: #FFFFFF; */
+    color: #8F9092;
+
+}
+
+/* .butaoPrincipalTexto:hover{
+    color: #000000;
+} */
+
+.divTitSegun1Vazio {
+    width: 1140px;
+    height: 1px;
+    background: #42464D;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    z-index: 1;
+}
+
+.divTitSegun1Opcao2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+
+    position: absolute;
+    left: 320px;
+    top: 371px;
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    z-index: 2;
+}
+
+.imgTitSegun1Opcao2 {
+    width: 395px;
+    height: 157px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.textoTitSegun1Opcao2 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 8px;
+    text-align: center;
+    color: #9C9FA3;
+    cursor: default;
+}
+
+/* ok */
+.divTitSegun2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 359px;
+    height: 400px;
+    /*  resolveu o problema do tamanho da tela ok. */
+    background: #36393F;
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.divTitSegun2OpcaoDeTexto1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.textoTitSegun2OpcaoDeTexto1 {
+    margin-left: 16px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 12px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.divTitSegun2OpcaoDeTexto2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 32px;
+}
+
+.subtexto1TitSegun2OpcaoDeTexto2 {
+    margin: 0px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 12px;
+    padding: 0px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.subtexto2TitSegun2OpcaoDeTexto2 {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: center;
+    color: #96989D;
+
+}/* FIM ANTONIO CSS */
+
+/* JEALLYSON CSS */
+
+.divVazioHeader{
+
+    width: 60px;
+    height: 2px;
+    
+    background: #373A3F;
+    border-radius: 2px;
+    
+    /* Inside auto layout */
+    
+    /* flex: none;
+    order: 0;
+    flex-grow: 0; */
+    
+    }
+    #container {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+       
+        height: 0px;
+    padding: 0px;
+    margin: 0px;
+        
+        
+    }
+    
+    /* coluna preta. Modifique o width para alterar */
+    #wapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    width: 85px;
+    height: 945px;
+    background: #202225;
+    
+    
+    }
+    
+    #discord {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 2px;
+        gap: 4px;
+        
+        width: 38px;
+        height: 38px;
+        
+        background: #5865F2;
+    
+        border-radius: 16px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    
+    
+    #dv1 {
+    width: 4px;
+    height: 40px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+    .discord:hover{
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+    
+    .personagem1 {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 8px;
+        gap: 8px;
+        isolation: isolate;
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .personagem1:hover{
+        transform: scale(1.2);
+        cursor: pointer;
+        /* opacity: 0.5; */
+    }
+    
+    .personagem2 {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 8px;
+        gap: 8px;
+        isolation: isolate;  
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .personagem2:hover{
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+    
+    .positivo {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 2px;
+        gap: 8px;
+        width: 48px;
+        height: 48px;
+        background: #36393F;
+        /* background: #ff0000; */
+        border-radius: 48px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        }
+        .positivo:hover{
+            transform: scale(1.2);
+            cursor: pointer;
+        }
+    .circleIon {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px;
+    gap: 8px;
+    width: 28px;
+    height: 28px;
+    background: #36393F;
+    border-radius: 28px;
+    
+    }
+    .circleIon:hover
+    {
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+    
+    #listItem0 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 12px 12px 0px;
+    gap: 8px;
+    width: 57px;
+    height: 72px;
+    background: #202225;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+    
+    #listItem1 {
+        display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 12px 12px 0px;
+    gap: 8px;
+    width: 57px;
+    height: 72px;
+    background: #202225;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    }
+    
+    .listItem1Barra{
+    position: absolute;
+    left: 0px;
+    top: 52px;
+    
+    }
+    .listItem1Bola{
+        position: absolute;
+        left: 0px;
+        top: 158px;
+    }
+    .listItem2Bola{
+        position: absolute;
+        left: 0px;
+        top: 255px;
+    }
+    .listItem4Bola{
+        position: absolute;
+        left: 0px;
+        top: 448px;
+    }
+    
+    #listItem2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 12px 12px 12px 0px;
+        gap: 8px;
+        width: 57px;
+        height: 72px;
+        background: #202225;
+        flex: none;
+        order: 3;
+        flex-grow: 0;
+    }
+    
+    #listItem3 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 12px;
+        gap: 8px;
+    /* modifique o width para diminuir a borda preta */
+        width: 60px;
+        height: 72px;
+        background: #202225;
+        flex: none;
+        order: 4;
+        flex-grow: 0;
+    }
+    
+    #listItem4 {
+        display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 12px 12px 0px;
+    gap: 8px;
+    width: 48px;
+    height: 72px;
+    background: #202225;
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+    }
+    #listItem4:hover{
+        transform: scale(1.01)
+    }
+    
+    /* FIM JEALLYSON CSS */
+
+    /* EMILLY CSS */
+
+.divlateral{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0px;
+    width: 240px;
+    }
+    
+    /* mover posição =====================================================*/
+    .barralateral{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 24px;
+    left: 85px;
+    
+    padding: 0px;
+    width: 240px;
+    
+    }
+    
+    /* borda caixa de texto */
+    .pesquisarbarra{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    
+    width: 240px;
+    height: 40px;
+    background: #2F3136;
+    
+    }
+    /* input seache */
+    /* caixa de pesquisa. texto */
+    .pesquisa{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 8px;
+    width: 230px;
+    /* height: 32px; */
+    background: #202225;
+    border-radius: 4px;
+    
+    /* border: 1px solid #00AFF4;
+     */
+    border-style: none;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 16px;
+    color: #ffffff;
+    }
+    .pesquisa:focus{
+        outline-style: none;
+        cursor: text;
+    }
+    
+    /* txto dentro da caixa */
+    /* #conversar{
+       
+    
+    } */
+    .fileira{
+    position: absolute;
+    top: 64px;
+    /* ================================================================== */
+    /* border: 0px;
+    margin-top: 2px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3px;
+    gap: 8px;
+    width: 250px;
+    height: 875px;  
+    /* modicado para fica na altura certa da pagina */
+    background: #2F3136;
+    
+    }
+    .itens{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 12px;
+    width: 220px;
+    height: 40px;
+    background: #42464D;
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    }
+    .itens:hover{
+        transform: scale(1.02);
+    }
+    #usuario{
+    width: 164px;
+    height: 24px;
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    /*  */
+    }
+    .itens2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 12px;
+    width: 224px;
+    height: 40px;
+    background: #2F3136;
+    border-radius: 4px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    }
+    .itens2:hover{
+        transform: scale(1.02);
+    }
+    
+    #circulo{
+    width: 24px;
+    height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+    #nitro{
+        /* Nitro */
+    
+    cursor: default;
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #96989D;
+    
+    
+    }
+    
+    /* novo codigo emilly */
+    
+    .itens3 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 8px 12px;
+        gap: 12px;
+        width: 224px;
+        height: 40px;
+        background: #2F3136;
+        border-radius: 4px;
+        flex: none;
+        order: 2;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    
+    #direct {
+        width: 15px;
+        height: 18px;
+       
+        order: 1;
+        flex-grow: 0;
+    }
+    #direct:hover{
+        transform: scale(1.1);
+    }
+    
+    #messagens {
+        width: 154px;
+        height: 24px;
+    
+       
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 24px;
+        color: #96989D;
+       
+        order: 0;
+        flex-grow: 1;
+    }
+    
+    .rodape {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 8px;
+        gap: 8px;
+        width: 240px;
+        top: 880px;
+        background: #292B2F;
+        height: 48px;
+        /* flex: none;
+    order: 1;
+    flex-grow: 0; */
+    }
+    
+    .icones1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+        gap: 8px;
+        isolation: isolate;
+        width: 32px;
+        height: 32px;
+        background: #757E8A;
+        border-radius: 32px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    
+    .frase {
+        /* frase*/
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 4px;
+        left: 65px;
+        top: 0px;
+    }
+    
+    #user {
+        width: 96px;
+        height: 12px;
+       
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        color: #FFFFFF;
+        flex: none;
+      cursor: default;
+    }
+    
+    #user2 {
+        margin-bottom: 0px;
+        margin-top: 0px;
+        width: 96px;
+        height: 12px;
+       
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 0px;
+        color: #96989D;
+      cursor: default;
+    }
+    
+    .icones2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+        gap: 8px;
+        width: 80px;
+        height: 32px;
+       position: absolute;
+       top: 10px;
+    }
+    
+    #microfone {
+        position: absolute;
+        right: 20.83%;
+        top: 8.33%;
+        bottom: 8.33%;
+        border-style: none;
+        left: 155px;
+        top: 12px;
+    }
+    #microfone:hover,
+    #redfones:hover,
+    #engrenagem:hover{
+        transform: scale(1.1);
+    }
+    
+    
+    #redfones {
+        position: absolute;
+        right: 12.5%;
+        top: 12.5%;
+        bottom: 12.5%;
+        border-style: none;
+        left: 180px;
+        top: 12px;
+    }
+    
+    #engrenagem {
+        position: absolute;
+        right: 12.5%;
+        top: 12.5%;
+        bottom: 12.5%;
+        border-style: none;
+        left: 205px;
+        top: 12px;
+    }
+    
+    .itens4,
+    .itens5,
+    .itens6,
+    .itens7,
+    .itens8,
+    .itens9,
+    .itens10, 
+    .itens11, 
+    .itens12, 
+    .itens13, 
+    .itens14,
+    .itens15,
+    .itens16
+    { 
+        position: absolute;
+    }
+    .itens5 {
+        
+        top: 185px;
+    }
+    .itens6 {
+        
+        top: 235px;
+        opacity: 0.9;
+    }
+    .itens7 {
+        
+        top: 285px;
+        opacity: 0.8;
+    }
+    .itens8 {
+        
+        top: 335px;
+        opacity: 0.7;
+    }
+    .itens9 {
+        
+        top: 385px;
+        opacity: 0.6;
+    }
+    .itens10 {
+        
+        top: 435px;
+        opacity: 0.6;
+    }
+    .itens11 {
+        
+        top: 485px;
+        opacity: 0.6;
+    }
+    .itens12 {
+        
+        top: 535px;
+        opacity: 0.5;
+    }
+    .itens13 {
+        
+        top: 585px;
+        opacity: 0.5;
+    }
+    .itens14 {
+        
+        top: 635px;
+        opacity: 0.4;
+    }
+    .itens4{
+        top: 680px;
+        opacity: 0.3;
+    }
+    .itens15{
+        top: 725px;
+        opacity: 0.2;
+    }
+    .itens16{
+        top: 770px;
+        opacity: 0.2;
+    }
+    
+    /* FIM EMILLY CSS */
+    
