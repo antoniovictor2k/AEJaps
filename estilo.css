@@ -635,13 +635,11 @@ cursor: default;
 
 .subtexto1TitSegun2OpcaoDeTexto2 {
     margin: 0px;
-
     font-weight: 700;
     font-size: 14px;
     line-height: 12px;
     padding: 0px;
     text-align: center;
-
     color: #FFFFFF;
 }
 
@@ -649,9 +647,7 @@ cursor: default;
     font-weight: 400;
     font-size: 11px;
     line-height: 16px;
-
     text-align: center;
-
     color: #96989D;
 
 }

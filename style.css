@@ -76,12 +76,9 @@ flex-grow: 0;
     padding: 8px;
     gap: 8px;
     isolation: isolate;
-    
     width: 48px;
     height: 48px;
-
     border-radius: 48px;
-    
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -97,15 +94,10 @@ flex-grow: 0;
     align-items: flex-start;
     padding: 8px;
     gap: 8px;
-    isolation: isolate;
-    
+    isolation: isolate;  
     width: 48px;
     height: 48px;
-
     border-radius: 48px;
-    
-    /* Inside auto layout */
-    
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -121,14 +113,10 @@ flex-grow: 0;
     align-items: flex-start;
     padding: 2px;
     gap: 8px;
-    
     width: 48px;
     height: 48px;
-    
     background: #ff0000;
     border-radius: 48px;
-    
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -143,7 +131,6 @@ flex-direction: row;
 align-items: flex-start;
 padding: 12px;
 gap: 8px;
-
 width: 28px;
 height: 28px;
 background: #36393F;
@@ -162,10 +149,8 @@ flex-direction: row;
 align-items: center;
 padding: 12px 12px 12px 0px;
 gap: 8px;
-
 width: 57px;
 height: 72px;
-
 background: #202225;
 
 /* Inside auto layout */
@@ -181,14 +166,9 @@ flex-direction: row;
 align-items: center;
 padding: 12px 12px 12px 0px;
 gap: 8px;
-
 width: 57px;
 height: 72px;
-
 background: #202225;
-
-/* Inside auto layout */
-
 flex: none;
 order: 2;
 flex-grow: 0;
@@ -200,14 +180,9 @@ flex-grow: 0;
     align-items: center;
     padding: 12px 12px 12px 0px;
     gap: 8px;
-    
     width: 57px;
     height: 72px;
-    
     background: #202225;
-    
-    /* Inside auto layout */
-    
     flex: none;
     order: 3;
     flex-grow: 0;
@@ -222,9 +197,7 @@ flex-grow: 0;
 /* modifique o width para diminuir a borda preta */
     width: 60px;
     height: 72px;
-    
     background: #202225;
-
     flex: none;
     order: 4;
     flex-grow: 0;
@@ -236,11 +209,9 @@ flex-direction: row;
 align-items: center;
 padding: 12px 12px 12px 0px;
 gap: 8px;
-
 width: 48px;
 height: 72px;
 background: #202225;
-
 flex: none;
 order: 5;
 flex-grow: 0;
