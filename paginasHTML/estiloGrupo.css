@@ -1,24 +1,28 @@
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     /* background: #36393F;
     color: #FFFFFF; */
+    border: 2px solid #02de48;
+    background: rgb(82, 80, 80);
 
 }
 
 .divGrupoPrincial {
     text-align: center;
-    margin: 12px;
+    margin: 190px;
     font-size: 40px;
     font-weight: 700;
 }
-
-/* .imgProfessor {
+/* 
+.imgProfessor {
     width: 400px;
-} */
+    top:20px;
+    
+}   */
 
 
 .divCaixaGrupo {
-    margin-top: 100px;
+    margin-top: 70px;
     display: flex;
     flex-direction: row;
     /*itens ficam na horizontal*/
@@ -29,8 +33,10 @@ body {
     justify-content: flex-start;
     /* alinhamento horizontal dos itens no container */
     /* border-style: solid; */
-
+    /* position: absolute; */
+    top:2500px;
 }
+
 
 .divNomeGrupoAntonio:hover,
 .divNomeGrupoEmilly:hover,
@@ -49,5 +55,20 @@ body {
 }
 
 .imgifal {
-    width: 100px;
+    width: 135.50px;
+}
+
+#jeallyson {
+    position: relative;
+    left: 7.52px;
+}
+
+#emilly {
+    position: relative;
+    left: 10px;
+}
+
+#reiDelas {
+    position: relative;
+    left: 10.5px;
 }
