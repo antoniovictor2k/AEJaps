@@ -1,0 +1,19 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(146, 146, 146);
+}
+
+li {
+    color: red;
+    text-decoration: none;
+}
+
+#att {
+    position: relative;
+    text-align: center;
+    top: 250px;
+}
+
+p {
+    color: red;
+}
