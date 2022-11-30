@@ -46,7 +46,6 @@ body {
 
 }
 
-
 .divImgIfal {
     position: absolute;
     right: 25px;
@@ -61,12 +60,12 @@ body {
 
 #jeallyson {
     position: relative;
-    left: 7.52px;
+    left: 21.5px;
 }
 
 #emilly {
     position: relative;
-    left: 10px;
+    left: 16.4px;
 }
 
 #reiDelas {
@@ -80,17 +79,14 @@ body {
     left: 1250px;
 }
 
-
-/* estiliza links não visitados */
-a:link {
-   text-decoration: none;
-   /* background-color: #02de48; */
-   color: #02de48;
+a {
+    color: rgb(7, 6, 6);
+    /* text-decoration: none; */
 }
 
 /* estiliza ao passar o mouse */
 a:hover {
-    color: rgb(0, 0, 0);
+    color: rgb(64, 255, 0);
     text-decoration: underline;
 }
 
@@ -100,8 +96,6 @@ a:active {
 }
 
 /* a:visited {
-    color:#02de48;
-} 
+    color:#19d454;
+}  */
 
-desativei por enquanto
-*/
