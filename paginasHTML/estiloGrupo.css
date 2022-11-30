@@ -9,7 +9,7 @@ body {
 
 .divGrupoPrincial {
     text-align: center;
-    margin: 190px;
+    margin: 186.2px;
     font-size: 40px;
     font-weight: 700;
 }
@@ -52,6 +52,7 @@ body {
     right: 25px;
     top: 15px;
     margin-top: 20px;
+    right: 35.9px;;
 }
 
 .imgifal {
@@ -80,17 +81,20 @@ body {
 }
 
 
-
+/* estiliza links não visitados */
 a:link {
    text-decoration: none;
    /* background-color: #02de48; */
    color: #02de48;
 }
 
+/* estiliza ao passar o mouse */
 a:hover {
     color: rgb(0, 0, 0);
-    text-decoration: underline;}
+    text-decoration: underline;
+}
 
+/* estiliza um link no momento do click do mouse */
 a:active {
     color: rgb(255, 7, 7);
 }
