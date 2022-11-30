@@ -72,3 +72,32 @@ body {
     position: relative;
     left: 10.5px;
 }
+
+#ifal-link {
+    position: absolute;
+    top: 170px;
+    left: 1250px;
+}
+
+
+
+a:link {
+   text-decoration: none;
+   /* background-color: #02de48; */
+   color: #02de48;
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;}
+
+a:active {
+    color: rgb(255, 7, 7);
+}
+
+/* a:visited {
+    color:#02de48;
+} 
+
+desativei por enquanto
+*/
