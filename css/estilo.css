@@ -21,7 +21,7 @@ body {
 }
 
 div {
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* header comecar aqui */
@@ -43,6 +43,7 @@ header {
     align-self: stretch;
     flex-grow: 0;
 }
+
 /* ======================================== */
 .divHeader1 {
     display: flex;
@@ -72,7 +73,7 @@ header {
     order: 0;
     flex-grow: 0; */
 
-cursor: default;
+    cursor: default;
 }
 
 .divHeader2 {
@@ -151,6 +152,10 @@ cursor: default;
     color: #ffffff;
     cursor: pointer;
     transform: scale(1.1)
+}
+
+a {
+    text-decoration: none;
 }
 
 .divTitulo1Nome:hover {
@@ -357,6 +362,7 @@ cursor: default;
     width: 24px;
     height: 24px;
 }
+
 /* ------------------------- */
 .divSeperarTitulo {
     position: absolute;
@@ -364,7 +370,7 @@ cursor: default;
     top: 50px;
     width: 1788px;
     height: 1px;
-/* background: #eaee00; */
+    /* background: #eaee00; */
     background: #232428;
 
 }
@@ -536,11 +542,14 @@ cursor: default;
     cursor: pointer;
     background: #008cff;
     transform: scale(1.01);
-   
+
 
     color: #ffffff;
 }
-.butaoPrincipalTexto:hover{color: #ffffff;}
+
+.butaoPrincipalTexto:hover {
+    color: #ffffff;
+}
 
 /* estou aqui ---------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------
@@ -661,40 +670,43 @@ cursor: default;
     text-align: center;
     color: #96989D;
 
-}/* FIM ANTONIO CSS */
+}
+
+/* FIM ANTONIO CSS */
 
 /* JEALLYSON CSS */
 
-.divVazioHeader{
+.divVazioHeader {
 
     width: 60px;
     height: 2px;
-    
+
     background: #373A3F;
     border-radius: 2px;
-    
+
     /* Inside auto layout */
-    
+
     /* flex: none;
     order: 0;
     flex-grow: 0; */
-    
-    }
-    #container {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 0px;
-       
-        height: 0px;
+
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    height: 0px;
     padding: 0px;
     margin: 0px;
-        
-        
-    }
-    
-    /* coluna preta. Modifique o width para alterar */
-    #wapper {
+
+
+}
+
+/* coluna preta. Modifique o width para alterar */
+#wapper {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -702,100 +714,105 @@ cursor: default;
     width: 85px;
     height: 945px;
     background: #202225;
-    
-    
-    }
-    
-    #discord {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 2px;
-        gap: 4px;
-        
-        width: 38px;
-        height: 38px;
-        
-        background: #5865F2;
-    
-        border-radius: 16px;
-        flex: none;
-        order: 1;
-        flex-grow: 0;
-    }
-    
-    
-    #dv1 {
+
+
+}
+
+#discord {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 2px;
+    gap: 4px;
+
+    width: 38px;
+    height: 38px;
+
+    background: #5865F2;
+
+    border-radius: 16px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+#dv1 {
     width: 4px;
     height: 40px;
     flex: none;
     order: 0;
     flex-grow: 0;
-    }
-    .discord:hover{
-        transform: scale(1.2);
-        cursor: pointer;
-    }
-    
-    .personagem1 {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 8px;
-        gap: 8px;
-        isolation: isolate;
-        width: 48px;
-        height: 48px;
-        border-radius: 48px;
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-    }
-    .personagem1:hover{
-        transform: scale(1.2);
-        cursor: pointer;
-        /* opacity: 0.5; */
-    }
-    
-    .personagem2 {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 8px;
-        gap: 8px;
-        isolation: isolate;  
-        width: 48px;
-        height: 48px;
-        border-radius: 48px;
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-    }
-    .personagem2:hover{
-        transform: scale(1.2);
-        cursor: pointer;
-    }
-    
-    .positivo {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 2px;
-        gap: 8px;
-        width: 48px;
-        height: 48px;
-        background: #36393F;
-        /* background: #ff0000; */
-        border-radius: 48px;
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-        }
-        .positivo:hover{
-            transform: scale(1.2);
-            cursor: pointer;
-        }
-    .circleIon {
+}
+
+.discord:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.personagem1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 8px;
+    isolation: isolate;
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.personagem1:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    /* opacity: 0.5; */
+}
+
+.personagem2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 8px;
+    isolation: isolate;
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.personagem2:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.positivo {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 2px;
+    gap: 8px;
+    width: 48px;
+    height: 48px;
+    background: #36393F;
+    /* background: #ff0000; */
+    border-radius: 48px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.positivo:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.circleIon {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -805,15 +822,15 @@ cursor: default;
     height: 28px;
     background: #36393F;
     border-radius: 28px;
-    
-    }
-    .circleIon:hover
-    {
-        transform: scale(1.2);
-        cursor: pointer;
-    }
-    
-    #listItem0 {
+
+}
+
+.circleIon:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#listItem0 {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -822,16 +839,16 @@ cursor: default;
     width: 57px;
     height: 72px;
     background: #202225;
-    
+
     /* Inside auto layout */
-    
+
     flex: none;
     order: 0;
     flex-grow: 0;
-    }
-    
-    #listItem1 {
-        display: flex;
+}
+
+#listItem1 {
+    display: flex;
     flex-direction: row;
     align-items: center;
     padding: 12px 12px 12px 0px;
@@ -842,61 +859,64 @@ cursor: default;
     flex: none;
     order: 2;
     flex-grow: 0;
-    }
-    
-    .listItem1Barra{
+}
+
+.listItem1Barra {
     position: absolute;
     left: 0px;
     top: 52px;
-    
-    }
-    .listItem1Bola{
-        position: absolute;
-        left: 0px;
-        top: 158px;
-    }
-    .listItem2Bola{
-        position: absolute;
-        left: 0px;
-        top: 255px;
-    }
-    .listItem4Bola{
-        position: absolute;
-        left: 0px;
-        top: 448px;
-    }
-    
-    #listItem2 {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding: 12px 12px 12px 0px;
-        gap: 8px;
-        width: 57px;
-        height: 72px;
-        background: #202225;
-        flex: none;
-        order: 3;
-        flex-grow: 0;
-    }
-    
-    #listItem3 {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding: 12px;
-        gap: 8px;
+
+}
+
+.listItem1Bola {
+    position: absolute;
+    left: 0px;
+    top: 158px;
+}
+
+.listItem2Bola {
+    position: absolute;
+    left: 0px;
+    top: 255px;
+}
+
+.listItem4Bola {
+    position: absolute;
+    left: 0px;
+    top: 448px;
+}
+
+#listItem2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 12px 12px 0px;
+    gap: 8px;
+    width: 57px;
+    height: 72px;
+    background: #202225;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+#listItem3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    gap: 8px;
     /* modifique o width para diminuir a borda preta */
-        width: 60px;
-        height: 72px;
-        background: #202225;
-        flex: none;
-        order: 4;
-        flex-grow: 0;
-    }
-    
-    #listItem4 {
-        display: flex;
+    width: 60px;
+    height: 72px;
+    background: #202225;
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+
+#listItem4 {
+    display: flex;
     flex-direction: row;
     align-items: center;
     padding: 12px 12px 12px 0px;
@@ -907,54 +927,56 @@ cursor: default;
     flex: none;
     order: 5;
     flex-grow: 0;
-    }
-    #listItem4:hover{
-        transform: scale(1.01)
-    }
-    
-    /* FIM JEALLYSON CSS */
+}
 
-    /* EMILLY CSS */
+#listItem4:hover {
+    transform: scale(1.01)
+}
 
-.divlateral{
+/* FIM JEALLYSON CSS */
+
+/* EMILLY CSS */
+
+.divlateral {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
     padding: 0px;
     width: 240px;
-    }
-    
-    /* mover posição =====================================================*/
-    .barralateral{
+}
+
+/* mover posição =====================================================*/
+.barralateral {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     position: absolute;
     top: 24px;
     left: 85px;
-    
+
     padding: 0px;
     width: 240px;
-    
-    }
-    
-    /* borda caixa de texto */
-    .pesquisarbarra{
+
+}
+
+/* borda caixa de texto */
+.pesquisarbarra {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 8px;
-    
+
     width: 240px;
     height: 40px;
     background: #2F3136;
-    
-    }
-    /* input seache */
-    /* caixa de pesquisa. texto */
-    .pesquisa{
+
+}
+
+/* input seache */
+/* caixa de pesquisa. texto */
+.pesquisa {
     cursor: pointer;
     display: flex;
     flex-direction: row;
@@ -965,28 +987,29 @@ cursor: default;
     /* height: 32px; */
     background: #202225;
     border-radius: 4px;
-    
+
     /* border: 1px solid #00AFF4;
      */
     border-style: none;
-    
+
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 600;
     font-size: 10px;
     line-height: 16px;
     color: #ffffff;
-    }
-    .pesquisa:focus{
-        outline-style: none;
-        cursor: text;
-    }
-    
-    /* txto dentro da caixa */
-    /* #conversar{
+}
+
+.pesquisa:focus {
+    outline-style: none;
+    cursor: text;
+}
+
+/* txto dentro da caixa */
+/* #conversar{
        
     
     } */
-    .fileira{
+.fileira {
     position: absolute;
     top: 64px;
     /* ================================================================== */
@@ -998,12 +1021,13 @@ cursor: default;
     padding: 3px;
     gap: 8px;
     width: 250px;
-    height: 875px;  
+    height: 875px;
     /* modicado para fica na altura certa da pagina */
     background: #2F3136;
-    
-    }
-    .itens{
+
+}
+
+.itens {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1017,21 +1041,24 @@ cursor: default;
     order: 0;
     align-self: stretch;
     flex-grow: 0;
-    }
-    .itens:hover{
-        transform: scale(1.02);
-    }
-    #usuario{
+}
+
+.itens:hover {
+    transform: scale(1.02);
+}
+
+#usuario {
     width: 164px;
     height: 24px;
-    
+
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     color: #FFFFFF;
     /*  */
-    }
-    .itens2{
+}
+
+.itens2 {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1045,269 +1072,284 @@ cursor: default;
     order: 1;
     align-self: stretch;
     flex-grow: 0;
-    }
-    .itens2:hover{
-        transform: scale(1.02);
-    }
-    
-    #circulo{
+}
+
+.itens2:hover {
+    transform: scale(1.02);
+}
+
+#circulo {
     width: 24px;
     height: 24px;
     flex: none;
     order: 0;
     flex-grow: 0;
-    }
-    #nitro{
-        /* Nitro */
-    
+}
+
+#nitro {
+    /* Nitro */
+
     cursor: default;
-    
+
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     color: #96989D;
-    
-    
-    }
-    
-    /* novo codigo emilly */
-    
-    .itens3 {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding: 8px 12px;
-        gap: 12px;
-        width: 224px;
-        height: 40px;
-        background: #2F3136;
-        border-radius: 4px;
-        flex: none;
-        order: 2;
-        align-self: stretch;
-        flex-grow: 0;
-    }
-    
-    #direct {
-        width: 15px;
-        height: 18px;
-       
-        order: 1;
-        flex-grow: 0;
-    }
-    #direct:hover{
-        transform: scale(1.1);
-    }
-    
-    #messagens {
-        width: 154px;
-        height: 24px;
-    
-       
-        font-weight: 500;
-        font-size: 12px;
-        line-height: 24px;
-        color: #96989D;
-       
-        order: 0;
-        flex-grow: 1;
-    }
-    
-    .rodape {
-        position: absolute;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding: 8px;
-        gap: 8px;
-        width: 240px;
-        top: 880px;
-        background: #292B2F;
-        height: 48px;
-        /* flex: none;
+
+
+}
+
+/* novo codigo emilly */
+
+.itens3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 12px;
+    width: 224px;
+    height: 40px;
+    background: #2F3136;
+    border-radius: 4px;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#direct {
+    width: 15px;
+    height: 18px;
+
+    order: 1;
+    flex-grow: 0;
+}
+
+#direct:hover {
+    transform: scale(1.1);
+}
+
+#messagens {
+    width: 154px;
+    height: 24px;
+
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    color: #96989D;
+
+    order: 0;
+    flex-grow: 1;
+}
+
+.rodape {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+    gap: 8px;
+    width: 240px;
+    top: 880px;
+    background: #292B2F;
+    height: 48px;
+    /* flex: none;
     order: 1;
     flex-grow: 0; */
-    }
-    
-    .icones1 {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding: 8px;
-        gap: 8px;
-        isolation: isolate;
-        width: 32px;
-        height: 32px;
-        background: #757E8A;
-        border-radius: 32px;
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-    }
-    
-    .frase {
-        /* frase*/
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 4px;
-        left: 65px;
-        top: 0px;
-    }
-    
-    #user {
-        width: 96px;
-        height: 12px;
-       
-        font-weight: 600;
-        font-size: 12px;
-        line-height: 15px;
-        color: #FFFFFF;
-        flex: none;
-      cursor: default;
-    }
-    
-    #user2 {
-        margin-bottom: 0px;
-        margin-top: 0px;
-        width: 96px;
-        height: 12px;
-       
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 0px;
-        color: #96989D;
-      cursor: default;
-    }
-    
-    .icones2 {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding: 8px;
-        gap: 8px;
-        width: 80px;
-        height: 32px;
-       position: absolute;
-       top: 10px;
-    }
-    
-    #microfone {
-        position: absolute;
-        right: 20.83%;
-        top: 8.33%;
-        bottom: 8.33%;
-        border-style: none;
-        left: 155px;
-        top: 12px;
-    }
-    #microfone:hover,
-    #redfones:hover,
-    #engrenagem:hover{
-        transform: scale(1.1);
-    }
-    
-    
-    #redfones {
-        position: absolute;
-        right: 12.5%;
-        top: 12.5%;
-        bottom: 12.5%;
-        border-style: none;
-        left: 180px;
-        top: 12px;
-    }
-    
-    #engrenagem {
-        position: absolute;
-        right: 12.5%;
-        top: 12.5%;
-        bottom: 12.5%;
-        border-style: none;
-        left: 205px;
-        top: 12px;
-    }
-    
-    .itens4,
-    .itens5,
-    .itens6,
-    .itens7,
-    .itens8,
-    .itens9,
-    .itens10, 
-    .itens11, 
-    .itens12, 
-    .itens13, 
-    .itens14,
-    .itens15,
-    .itens16
-    { 
-        position: absolute;
-    }
-    .itens5 {
-        
-        top: 185px;
-    }
-    .itens6 {
-        
-        top: 235px;
-        opacity: 0.9;
-    }
-    .itens7 {
-        
-        top: 285px;
-        opacity: 0.8;
-    }
-    .itens8 {
-        
-        top: 335px;
-        opacity: 0.7;
-    }
-    .itens9 {
-        
-        top: 385px;
-        opacity: 0.6;
-    }
-    .itens10 {
-        
-        top: 435px;
-        opacity: 0.6;
-    }
-    .itens11 {
-        
-        top: 485px;
-        opacity: 0.6;
-    }
-    .itens12 {
-        
-        top: 535px;
-        opacity: 0.5;
-    }
-    .itens13 {
-        
-        top: 585px;
-        opacity: 0.5;
-    }
-    .itens14 {
-        
-        top: 635px;
-        opacity: 0.4;
-    }
-    .itens4{
-        top: 680px;
-        opacity: 0.3;
-    }
-    .itens15{
-        top: 725px;
-        opacity: 0.2;
-    }
-    .itens16{
-        top: 770px;
-        opacity: 0.2;
-    }
-    
-    /* FIM EMILLY CSS */
-    
+}
+
+.icones1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 8px;
+    isolation: isolate;
+    width: 32px;
+    height: 32px;
+    background: #757E8A;
+    border-radius: 32px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.frase {
+    /* frase*/
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4px;
+    left: 65px;
+    top: 0px;
+}
+
+#user {
+    width: 96px;
+    height: 12px;
+
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    flex: none;
+    cursor: default;
+}
+
+#user2 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width: 96px;
+    height: 12px;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 0px;
+    color: #96989D;
+    cursor: default;
+}
+
+.icones2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 8px;
+    width: 80px;
+    height: 32px;
+    position: absolute;
+    top: 10px;
+}
+
+#microfone {
+    position: absolute;
+    right: 20.83%;
+    top: 8.33%;
+    bottom: 8.33%;
+    border-style: none;
+    left: 155px;
+    top: 12px;
+}
+
+#microfone:hover,
+#redfones:hover,
+#engrenagem:hover {
+    transform: scale(1.1);
+}
+
+
+#redfones {
+    position: absolute;
+    right: 12.5%;
+    top: 12.5%;
+    bottom: 12.5%;
+    border-style: none;
+    left: 180px;
+    top: 12px;
+}
+
+#engrenagem {
+    position: absolute;
+    right: 12.5%;
+    top: 12.5%;
+    bottom: 12.5%;
+    border-style: none;
+    left: 205px;
+    top: 12px;
+}
+
+.itens4,
+.itens5,
+.itens6,
+.itens7,
+.itens8,
+.itens9,
+.itens10,
+.itens11,
+.itens12,
+.itens13,
+.itens14,
+.itens15,
+.itens16 {
+    position: absolute;
+}
+
+.itens5 {
+
+    top: 185px;
+}
+
+.itens6 {
+
+    top: 235px;
+    opacity: 0.9;
+}
+
+.itens7 {
+
+    top: 285px;
+    opacity: 0.8;
+}
+
+.itens8 {
+
+    top: 335px;
+    opacity: 0.7;
+}
+
+.itens9 {
+
+    top: 385px;
+    opacity: 0.6;
+}
+
+.itens10 {
+
+    top: 435px;
+    opacity: 0.6;
+}
+
+.itens11 {
+
+    top: 485px;
+    opacity: 0.6;
+}
+
+.itens12 {
+
+    top: 535px;
+    opacity: 0.5;
+}
+
+.itens13 {
+
+    top: 585px;
+    opacity: 0.5;
+}
+
+.itens14 {
+
+    top: 635px;
+    opacity: 0.4;
+}
+
+.itens4 {
+    top: 680px;
+    opacity: 0.3;
+}
+
+.itens15 {
+    top: 725px;
+    opacity: 0.2;
+}
+
+.itens16 {
+    top: 770px;
+    opacity: 0.2;
+}
+
+/* FIM EMILLY CSS */
