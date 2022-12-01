@@ -20,6 +20,10 @@ body {
     border: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 div {
    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
