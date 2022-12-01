@@ -1,8 +1,6 @@
 body {
     font-family: 'Courier New', Courier, monospace;
-    /* background: #36393F;
-    color: #FFFFFF; */
-    border: 2px solid #02de48;
+    /* border: 2px solid #02de48; */
     background: rgb(82, 80, 80);
 
 }
@@ -37,16 +35,16 @@ body {
     top:2500px;
 }
 
-
+                                        /* Comentei a partir daqui 01/12/2022
 .divNomeGrupoAntonio:hover,
 .divNomeGrupoEmilly:hover,
 .divNomeGrupoJeallyson:hover {
     transform: scale(1.01);
-    /* align-items: center; */
 
-}
 
-.divImgIfal {
+} */
+
+/* .divImgIfal {
     position: absolute;
     right: 25px;
     top: 15px;
@@ -56,9 +54,9 @@ body {
 
 .imgifal {
     width: 135.50px;
-}
+} */
 
-#jeallyson {
+/* #jeallyson {
     position: relative;
     left: 21.5px;
 }
@@ -71,12 +69,14 @@ body {
 #reiDelas {
     position: relative;
     left: 10.5px;
-}
+} */
 
 #ifal-link {
     position: absolute;
-    top: 170px;
-    left: 1250px;
+    top: 310px;
+    text-align: center;
+    left: 622.5px;
+    font-size: 20px;
 }
 
 a {
