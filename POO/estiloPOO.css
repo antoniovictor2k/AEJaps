@@ -1,0 +1,101 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    
+    color: #ffffff;
+    background: #36393F;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.divContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+    margin-bottom: 0px;
+   
+
+    background:#2F3136;
+
+   
+
+
+    width: 300px;
+    height: 800px;
+    /* ============================================== modificar depois */
+}
+
+
+.imgPadrao{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+.imgMini{
+    width: 14px;
+
+    display: flex;
+    
+    margin-left: 30px;
+}
+.divImgMini{
+    position: absolute;
+    margin-top: 32px;
+}
+
+
+ 
+#listaDeAmigosEn{
+    margin-bottom: 0px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.divSobrar{
+    
+    border-radius: 12px;
+    
+}
+.divSobrar:hover{
+  
+    transform: scale(1.01);
+    cursor: pointer;
+    background:#208136;
+
+    border-radius: 8px;
+
+    
+}
+
+
+
+
+.amigonome{
+   position: absolute;
+   margin-left: 70px;
+   margin-top: -45px;
+
+   font-weight: 700;
+}
+.amigomensagem{
+    position: absolute;
+
+    font-size: 90%;
+
+    margin-top: -25px;
+    margin-left: 60px;
+}
+
+#listaDeAmigosEn{
+    margin-top: 5px;
+    font-weight: 700;
+
+    cursor: default;
+}
+
+
+
+

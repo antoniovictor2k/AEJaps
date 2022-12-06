@@ -158,7 +158,11 @@ a {
     text-decoration: none;
 }
 
-.divTitulo1Nome:hover {
+.divTitulo1Nome a {
+    color: #ffffff;
+}
+
+.divTitulo1Nome:hover a  {
     color: #eaee00;
 }
 
